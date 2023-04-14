@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  background-color: #242424;
+  color: rgba(255, 255, 255);
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+button {
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+button:hover {
+  border: 1px solid purple;
+}
+
+/* Proje */
+.chat-bot {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 50px;
+  gap: 20px;
+}
+.chat-bot h1 {
+  text-align: center;
+}
+
+/* chat modu */
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 90%;
+}
+
+.list {
+  background-color: gray;
+  flex-grow: 1;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow: auto;
+}
+
+.prompt {
+  align-self: flex-start;
+  background-color: #747bff;
+  padding: 5px 20px;
+  border-radius: 8px 8px 8px 0;
+  font-size: 18px;
+}
+
+.answer {
+  background-color: #747bff;
+  padding: 5px 20px;
+  align-self: flex-end;
+  border-radius: 8px 8px 0 8px;
+  font-size: 18px;
+}
+.image-answer {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form input {
+  width: 70%;
+  height: 50px;
+  padding: 5px 20px;
+  border-radius: 10px 0 0 10px;
+}
