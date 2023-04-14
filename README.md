@@ -13,4 +13,4 @@ Proje, React, Redux, Redux-Thunk kullanılarak geliştirilmiştir ve bu nedenle 
 
 ## Preview
 
-![Watch the video](/Users/ramazanozbuganli/Desktop/okul/react-tunk-js/src/app/logo.gif)
+![Watch the video](https://github.com/ozbuganliramazan/Yapay-Zeka-Redux-Thunk/blob/main/src/app/logo.gif)
