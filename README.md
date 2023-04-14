@@ -13,4 +13,4 @@ Proje, React, Redux, Redux-Thunk kullanılarak geliştirilmiştir ve bu nedenle 
 
 ## Preview
 
-<img src="/Users/ramazanozbuganli/Desktop/okul/react-tunk-js/src/app/logo.gif">
+<img src="/Users/ramazanozbuganli/Desktop/okul/react-tunk-js/src/app/logo.gif"/>
